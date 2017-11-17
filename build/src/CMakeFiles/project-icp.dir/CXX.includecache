@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/IcpSolver.h
+eigen3/Eigen/Geometry
+-
+eigen3/Eigen/Sparse
+-
+
+../include/PointCloudGenerator.h
+cstdlib
+-
+time.h
+-
+cmath
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Geometry
+-
+
+/home/huo/Documents/virtual-slam/src/IcpSolver.cpp
+IcpSolver.h
+/home/huo/Documents/virtual-slam/src/IcpSolver.h
+
+/home/huo/Documents/virtual-slam/src/PointCloudGenerator.cpp
+PointCloudGenerator.h
+/home/huo/Documents/virtual-slam/src/PointCloudGenerator.h
+
+/home/huo/Documents/virtual-slam/src/icp.cpp
+IcpSolver.h
+/home/huo/Documents/virtual-slam/src/IcpSolver.h
+PointCloudGenerator.h
+/home/huo/Documents/virtual-slam/src/PointCloudGenerator.h
+iostream
+-
+

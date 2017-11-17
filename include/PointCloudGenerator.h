@@ -6,8 +6,8 @@
 #include <cmath>
 
 #include <eigen3/Eigen/Core>
+#include <eigen3/Eigen/Geometry>
 
-const double M_PI=3.1415926;
 class PointCloudGenerator
 {
 public:
@@ -32,7 +32,6 @@ public:
 			const Eigen::Vector3d &point3d1,Eigen::Vector3d &point3d2);
   void transformWithoutNoise(const Eigen::Matrix3d &R,const Eigen::Vector3d &t,
 			const Eigen::Vector3d &point3d1,Eigen::Vector3d &point3d2);
-  
 private:  
   double randomNumber(double min,double max);
   

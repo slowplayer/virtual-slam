@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O3   CMakeFiles/project-icp.dir/icp.cpp.o CMakeFiles/project-icp.dir/IcpSolver.cpp.o CMakeFiles/project-icp.dir/PointCloudGenerator.cpp.o  -o ../../bin/project-icp -rdynamic 

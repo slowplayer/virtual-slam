@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O3   CMakeFiles/project-pnp.dir/pnp.cpp.o CMakeFiles/project-pnp.dir/PnpSolver.cpp.o CMakeFiles/project-pnp.dir/PointCloudGenerator.cpp.o  -o ../../bin/project-pnp -rdynamic 

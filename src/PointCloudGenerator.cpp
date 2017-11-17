@@ -2,7 +2,7 @@
 
 PointCloudGenerator::PointCloudGenerator()
 :fx(800),fy(800),cx(320),cy(240),transform_noise(1.0),
-project_noise(1.0),transform_radius(6.0),point_radius(2.0)
+project_noise(1.0),transform_radius(1.0),point_radius(2.0)
 {
   srand(time(0));
 }
